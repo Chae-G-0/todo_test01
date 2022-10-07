@@ -18,7 +18,7 @@ const View = ({ boardList, setBoardList}) => {
     <div>
         <div>{V.name}</div>
         <div>{V.title}</div>
-        <div>{V.content}</div>
+        <div style={{ whiteSpace: "pre-line" }}>{V.content}</div>
         <div>{V.date}</div>
         <button onClick={modifyHandler}>MODIFY</button>
         <button onClick={deleteHandler}>DEL</button>

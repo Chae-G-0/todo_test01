@@ -12,6 +12,7 @@ const Modify = ({ boardList, setBoardList }) => {
     };
 
     const [input, setInput] = useState({
+        id: V.id,
         name: V.name,
         title: V.title,
         content: V.content,
